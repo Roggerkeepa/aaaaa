@@ -8,13 +8,15 @@ import java.util.HashMap;
 //try to remove key rollNo and  print all the assigned values
 public class HashmapPratice {
     public static void main(String[] args) {
-        HashMap<String,Object> studentsRollno = new HashMap<>();
-        studentsRollno.put("keepa",12);
+        HashMap<String,Object> students = new HashMap<>();
+        students.put("Name","keepa");
+        students.put("Rollno.",29);
+        students.put("Destination","Maine");
+        students.put("Mobileno.",1234567890);
 
-        HashMap<String,String> studentsdestn = new HashMap<>();
-        studentsdestn.put("Ravi","KTM");
-        HashMap<String,Object> studentsmobileno = new HashMap<>();
-        studentsmobileno.put("Shyam",123456789);
+
+
+
 
 
 
